@@ -24,7 +24,7 @@ const TodoListForm = () => {
 
     const completeTask = (e, id) => {
         e.preventDefault()
-        setTaskList(taskList.filter((task) => task.id != id))
+        setTaskList(taskList.filter((task) => task.id !== id))
     }
 
 
