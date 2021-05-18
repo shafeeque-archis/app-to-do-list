@@ -1,0 +1,39 @@
+input {
+    margin:0 0 5px 0;
+    display: block;
+}
+
+input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    background-color: seagreen;
+    color: #ffffff;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #1f804a;
+}
+
+.TodoItem {
+    display: flex;
+}
+
+.taskName.taskName {
+    border: 0;
+    width: auto;
+    flex: 1;
+}
+
+.taskButton {
+    margin: 10px;
+}

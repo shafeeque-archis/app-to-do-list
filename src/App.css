@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.TodoWrapper {
+  width: 500px;
+  padding: 20px;
+  border: 2px solid #dedede;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #dedede;
+}
+
+h1 {
+  margin-top: 0;
+}
